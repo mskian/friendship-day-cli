@@ -6,6 +6,8 @@ frnds - Happy Friendship Day CLI : ASCII Text Art Greeting Wishes.
 
 > "frnds" : friends 🌟  
 
+Command Line Interface tool for Happy Friendship Day Wishes : Happy Friendship Day Wishes in Terminal/CMD and Termux.  
+
 ## Built using
 
 - Typescript
@@ -79,13 +81,27 @@ pnpm update -g frnds
 ## Remove Package
 pnpm uninstall -g frnds
 
-## MISC (Development)
+```
 
-- Clear NPX and PNPM Cache
+## CLI Usage
 
 ```sh
-npx clear-npx-cache
-pnpm store prune
+
+# For Help Message
+frnds -h
+
+# Generate Greeting Web page
+frnds -n "Hello Friend"
+
+# Random Quotes
+frnds -q
+
+# ASCII Text Art
+frnds -a
+
+# Custom Message
+frnds -m "Happy Friendship Day"
+
 ```
 
 ## Bash CLI
@@ -100,6 +116,15 @@ chmod +x friend.sh
 # RUN CLI
 ./friend.sh -h
 
+```
+
+## MISC (Development)
+
+- Clear NPX and PNPM Cache
+
+```sh
+npx clear-npx-cache
+pnpm store prune
 ```
 
 ## Contributing 🙌
