@@ -31,6 +31,8 @@ pnpm install
 ## build CLI
 pnpm build
 
+```
+
 - Link and Test the CLI Locally
 
 ```sh
