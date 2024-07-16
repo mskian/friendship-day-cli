@@ -1,0 +1,47 @@
+{
+  "name": "frnd",
+  "version": "0.0.0",
+  "description": "Frnd - Happy Friendship Day CLI : ASCII Text Art Greeting Wishes.",
+  "main": "./dist/frnd.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/frnd.ts",
+    "start": "node dist/frnd.js"
+  },
+  "publishConfig": {
+    "provenance": true
+  },
+  "bin": {
+    "frnd": "bin/frnd.mjs"
+  },
+  "keywords": [
+    "frnd",
+    "friends",
+    "friendship",
+    "friendshipday",
+    "wishes",
+    "greeting"
+  ],
+  "author": "Santhosh Veer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mskian/friendship-day-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/mskian/friendship-day-cli/issues"
+  },
+  "homepage": "https://github.com/mskian/friendship-day-cli",
+  "files": [
+    "dist/**/*",
+    "bin/**/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "typescript": "^5.5.3"
+  }
+}

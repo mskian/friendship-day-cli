@@ -1,0 +1,21 @@
+name: build-test
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+    steps:
+    - uses: actions/checkout@v4.1.7
+    - uses: ./.github/actions/prepare
+    - name: use pnpm to build CLI
+      run: |
+       pnpm build
+       pnpm start -n "Santhosh Veer" -q -a
