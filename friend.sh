@@ -48,11 +48,15 @@ ${NC}
 "
 
 QUOTES=(
-    "True friends are those who lift you up when you have forgotten how to fly. ${HEART}"
-    "Friendship is like a rainbow between two hearts, shining with love and joy. ${WAVING_HAND}"
-    "A friend is someone who sees the magic in you, even when you can't see it yourself. ${STAR}"
-    "In the garden of life, friends are the flowers that make it bloom with joy. ${GIFT}"
-    "Friendship is a treasure chest filled with memories and laughter. ${HEART}"
+    "True friends are those who lift you up when you have forgotten how to fly ${HEART}"
+    "Friendship is like a rainbow between two hearts, shining with love and joy ${WAVING_HAND}"
+    "A friend is someone who sees the magic in you, even when you can't see it yourself ${STAR}"
+    "In the garden of life, friends are the flowers that make it bloom with joy ${GIFT}"
+    "Friendship is a treasure chest filled with memories and laughter ${HEART}"
+    "Friendship is the compass that guides us through life's storm ${STAR}"
+    "Friends are the greatest gifts of life. You will always be a significant part of my life ${HEART}"
+    "The love of friends makes life's toughest moments more bearable ${GIFT}"
+    "Friendship is like a star We truly realize how bright and valuable it is during the darkest times ${STAR}"
 )
 
 print_usage() {
@@ -115,7 +119,7 @@ print_random_quote() {
 }
 
 print_ascii_art() {
-    echo -e "\n${MAGENTA}✅ Here's some Friendship Day ASCII art:${NC}\n${MAGENTA}$ASCII_ART${NC}\n"
+    echo -e "\n${MAGENTA}✅ Happy Friendship Day ASCII art:${NC}\n${MAGENTA}$ASCII_ART${NC}\n"
 }
 
 handle_unknown_option() {

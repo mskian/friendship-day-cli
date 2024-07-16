@@ -103,7 +103,7 @@ async function printRandomQuote() {
 
 function printAsciiArt() {
   console.log(`
-\x1b[35m✅ Here's some Friendship Day ASCII art:\x1b[0m
+\x1b[35m✅ Happy Friendship Day ASCII art:\x1b[0m
 ${ASCII_ART}
 `);
 }
