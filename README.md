@@ -2,9 +2,9 @@
 
 ![build-test](https://github.com/mskian/friendship-day-cli/workflows/build-test/badge.svg)  ![npm](https://github.com/mskian/friendship-day-cli/workflows/npm/badge.svg)  
 
-Frnd - Happy Friendship Day CLI : ASCII Text Art Greeting Wishes.  
+frnds - Happy Friendship Day CLI : ASCII Text Art Greeting Wishes.  
 
-> "frnd" > friend.
+> "frnds" > friend.
 
 ## Built using
 
@@ -40,21 +40,21 @@ npm link or pnpm link --global
 - unlink CLI
 
 ```sh
-npm rm --global frnd or pnpm uninstall --global frnd
+npm rm --global frnds or pnpm uninstall --global frnds
 ```
 
 - Access CLI Globally
 
 ```sh
 
-frnd -h
+frnds -h
 
 ```
 
 - Access via `NPX`
 
 ```sh
-npx frnd -h
+npx frnds -h
 ```
 
 - install via `NPM` and `PNPM`
@@ -62,20 +62,20 @@ npx frnd -h
 ```sh
 
 ## install via npm
-npm install -g frnd
+npm install -g frnds
 
 ## Remove Package
-npm uninstall -g frnd
+npm uninstall -g frnds
 
 
 ## install via pnpm
-pnpm install -g frnd
+pnpm install -g frnds
 
 ## update package
-pnpm update -g frnd
+pnpm update -g frnds
 
 ## Remove Package
-pnpm uninstall -g frnd
+pnpm uninstall -g frnds
 
 ## MISC (Development)
 

@@ -1,21 +1,21 @@
 {
-  "name": "frnd",
-  "version": "0.0.1",
-  "description": "Frnd - Happy Friendship Day CLI : ASCII Text Art Greeting Wishes.",
-  "main": "./dist/frnd.js",
+  "name": "frnds",
+  "version": "0.0.0",
+  "description": "frnds - Happy Friendship Day CLI : ASCII Text Art Greeting Wishes.",
+  "main": "./dist/frnds.js",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node src/frnd.ts",
-    "start": "node dist/frnd.js"
+    "dev": "ts-node src/frnds.ts",
+    "start": "node dist/frnds.js"
   },
   "publishConfig": {
     "provenance": true
   },
   "bin": {
-    "frnd": "bin/frnd.mjs"
+    "frnds": "bin/frnds.mjs"
   },
   "keywords": [
-    "frnd",
+    "frnds",
     "friends",
     "friendship",
     "friendshipday",
@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mskian/friendship-day-cli"
+    "url": "git+https://github.com/mskian/friendship-day-cli.git"
   },
   "bugs": {
     "url": "https://github.com/mskian/friendship-day-cli/issues"
