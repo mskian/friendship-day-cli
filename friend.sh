@@ -63,10 +63,10 @@ print_usage() {
     echo -e "${CYAN}Usage: $0 [options]${NC}"
     echo -e "${CYAN}Options:${NC}"
     echo -e "  ${YELLOW}-m, --message${NC}    Custom message to display ${MAGENTA}(e.g., \"$0 -m 'Your Custom Message Here'\"${NC})"
-    echo -e "  ${YELLOW}-n, --name${NC}       Your name for a personalized greeting ${YELLOW}(${HEART} for a special touch${NC})"
-    echo -e "  ${YELLOW}-q, --quote${NC}      Display a random Friendship Day quote ${YELLOW}(${HEART} for inspiration${NC})"
+    echo -e "  ${YELLOW}-n, --name${NC}       Your name for a personalized greeting ${YELLOW}(${HEART}  for a special touch${NC})"
+    echo -e "  ${YELLOW}-q, --quote${NC}      Display a random Friendship Day quote ${YELLOW}(${HEART}  for inspiration${NC})"
     echo -e "  ${YELLOW}-a, --art${NC}        Display ASCII art ${YELLOW}(${GIFT} for a unique touch${NC})"
-    echo -e "  ${YELLOW}-h, --help${NC}       Show this help message ${YELLOW}(${HEART} for more info${NC})"
+    echo -e "  ${YELLOW}-h, --help${NC}       Show this help message ${YELLOW}(${HEART}  for more info${NC})"
 }
 
 slugify() {
