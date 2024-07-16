@@ -4,7 +4,7 @@
 
 frnds - Happy Friendship Day CLI : ASCII Text Art Greeting Wishes.  
 
-> "frnds" > friend.
+> "frnds" : friends 🌟  
 
 ## Built using
 
@@ -84,6 +84,20 @@ pnpm uninstall -g frnds
 ```sh
 npx clear-npx-cache
 pnpm store prune
+```
+
+## Bash CLI
+
+Happy Friendship Day Bash CLI
+
+```sh
+
+## Set Permission
+chmod +x friend.sh
+
+# RUN CLI
+./friend.sh -h
+
 ```
 
 ## Contributing 🙌
