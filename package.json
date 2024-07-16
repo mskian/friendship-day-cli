@@ -1,6 +1,6 @@
 {
   "name": "frnd",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Frnd - Happy Friendship Day CLI : ASCII Text Art Greeting Wishes.",
   "main": "./dist/frnd.js",
   "scripts": {
