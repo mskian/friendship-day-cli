@@ -37,7 +37,7 @@
     "bin/**/*"
   ],
   "devDependencies": {
-    "@types/node": "^20.16.8",
+    "@types/node": "^20.16.9",
     "ts-node": "^10.9.2"
   },
   "dependencies": {
