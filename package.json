@@ -41,7 +41,7 @@
     "ts-node": "^10.9.2"
   },
   "dependencies": {
-    "commander": "^12.1.0",
+    "commander": "^14.0.0",
     "typescript": "^5.8.3"
   }
 }
