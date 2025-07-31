@@ -24,7 +24,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: build and Publish package on NPM 📦
         run: |
-           pnpm install --frozen-lockfile
+           pnpm install
            pnpm build
            npm publish --provenance --access public
         env:
